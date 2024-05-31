@@ -1,0 +1,21 @@
+Para buscar una palabra clave en un repo
+
+En este ejemplo, se buscará la palabra clave "key_word_1" en todos los jupyter notebook
+que están en el repo
+
+PASO 1:
+Abrir terminal
+
+PASO 2:
+Navegar al root del repo
+
+cd /ruta/a/tu/repositorio
+
+
+PASO 3:
+Usar grep para buscar la palabra clave en los notebooks
+
+grep -r --include \*.ipynb "palabra_clave" .
+
+
+grep -r --include \*.ipynb "key_word_1" .
