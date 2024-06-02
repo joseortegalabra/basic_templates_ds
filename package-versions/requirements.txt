@@ -7,6 +7,10 @@ seaborn==0.12.2
 openpyxl==3.1.2
 
 plotly==5.17.0
+kaleido==0.2.1
+
+graphviz==0.20.3
+
 tensorflow==2.13.0
 
 google-auth==2.23.0
@@ -31,6 +35,12 @@ Flask==2.3.3
 docutils==0.20.1
 python-dotenv==1.0.1
 
+
+statsmodels==0.14.2
+
+ydata_profiling==4.8.3
+
+xgboost==2.0.3
 
 
 #-> instalar jupyter de anaconda para que funcione
